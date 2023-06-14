@@ -108,7 +108,7 @@ function settalarm() {
     } else if (hours === parseInt(night.value)) {
         MG[0].innerText = 'GOOD NIGHT!!'
         GM[0].innerText = 'CLOSE YOUR EYES AND GO TO SLEEP'
-        photo[0].style.backgroundImage = "url('./goodnight_image.png')"
+       photo[0].style.backgroundImage = "url('lunch_image.png')"
     }
 
 }
