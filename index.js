@@ -96,19 +96,19 @@ function settalarm() {
     if (hours === parseInt(morn.value)) {
         MG[0].innerText = 'GOOD MORNING!!WAKE UP!!'
         GM[0].innerText = 'GRAB SOME HEALTHY BREAKFAST!!!'
-        photo[0].style.backgroundImage = "url('./Component 30 – 1.svg)"
+        photo[0].style.backgroundImage = "url(Component 30 – 1.svg)"
     } else if (hours === parseInt(aft.value)) {
         MG[0].innerText = 'GOOD AFTERNOON!! TAKE SOME SLEEP'
         GM[0].innerText = 'LETS HAVE SOME LUNCH'
-        photo[0].style.backgroundImage = "url('./Component 31 – 1.svg')"
+        photo[0].style.backgroundImage = "url('Component 31 – 1.svg')"
     } else if (hours === parseInt(eve.value)) {
         MG[0].innerText = 'GOOD EVENING!!'
         GM[0].innerText = 'STOP YAWNING, GET SOME TEA... ITS JUST EVENING'
-        photo[0].style.backgroundImage = "url('./lunch_image.png')"
+        photo[0].style.backgroundImage = "url('lunch_image.png')"
     } else if (hours === parseInt(night.value)) {
         MG[0].innerText = 'GOOD NIGHT!!'
         GM[0].innerText = 'CLOSE YOUR EYES AND GO TO SLEEP'
-        photo[0].style.backgroundImage = " url ('./goodnight_image.svg')"
+        photo[0].style.backgroundImage = " url ('goodnight_image.svg')"
     }
 
 }
